@@ -136,7 +136,6 @@ nav ul a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     border-top: 1px solid rgba(46,46,46,0.1);
-    box-shadow: 2px 2px 5px;
 }
 
 .rectangle {
@@ -152,3 +151,37 @@ nav ul a:hover {
     padding: 15vh 10vw 15vh 0;
 }
 /* About end */
+
+/* Services */
+#services {
+    padding: 0 10vw;
+    height: 76vh;
+    position: relative;
+}
+
+.services-text-content {
+    padding-top: 15vh;
+}
+
+.service-cell {
+    margin: 0;
+    padding-top: 20vh;
+    height: 38vh;
+    border: 1px solid rgba(46,46,46,0.1);
+    margin-top: 0;
+    text-align: center;
+}
+
+figure {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+figure img {
+    margin-bottom: 3ch;
+}
+/* Services stop */
