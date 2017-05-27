@@ -7,6 +7,7 @@
     <!-- Bootstrap styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Main styles -->
+    <link rel="stylesheet" href="css/elements.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -14,8 +15,14 @@
     <!-- Navbar -->
     <nav>
         <ul>
-            <a href="#home">
+            <a href="#header">
                 <li class="navbar-single-item">Home</li>
+            </a>
+            <a href="#about">
+                <li class="navbar-single-item">Who we are</li>
+            </a>
+            <a href="#services">
+                <li class="navbar-single-item">Services</li>
             </a>
             <a href="#works">
                 <li class="navbar-single-item">Works</li>
@@ -23,14 +30,8 @@
             <a href="#industries">
                 <li class="navbar-single-item">Industries</li>
             </a>
-            <a href="#services">
-                <li class="navbar-single-item">Services</li>
-            </a>
             <a href="#news">
                 <li class="navbar-single-item">News</li>
-            </a>
-            <a href="#about">
-                <li class="navbar-single-item">Who we are</li>
             </a>
             <a href="#contact">
                 <li class="navbar-single-item">Contact</li>
@@ -44,32 +45,27 @@
         <header id="header">
             <div class="row">
                 <div class="col-md-6 header-left">
-                    <div class="header-content">
-                        <h1>AGENCY</h1>
-                        <h2>FREEBIE PSD DOWNLOAD</h2>
-                        <div class="rounded-rectangle"></div>
-                        <div class="header-text">Maecenas suscipit imperdiet nisi ac hendrerit. Nam congue felis ac massa rutrum pulvinar. Donec sodales eros sed efficitur mattis. Integer tincidunt, felis a placerat maximus, eros nulla dapibus dui, at facilisis enim odio at velit. Aenean dictum eleifend mi sit amet luctus.
-                        </div>
-                    </div>
-                    <div class="col-md-6 header-right"></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <a href="#about">
-                            <img src="icons/darr.png" class="darr" alt="">
-                        </a>
+                    <h1>AGENCY</h1>
+                    <h2>FREEBIE PSD DOWNLOAD</h2>
+                    <div class="rounded-rectangle"></div>
+                    <div class="header-text">Maecenas suscipit imperdiet nisi ac hendrerit. Nam congue felis ac massa rutrum pulvinar. Donec sodales eros sed efficitur mattis. Integer tincidunt, felis a placerat maximus, eros nulla dapibus dui, at facilisis enim odio at velit. Aenean dictum eleifend mi sit amet luctus.
                     </div>
                 </div>
+                <div class="col-md-6 header-right"></div>
+                <a href="#about">
+                    <img src="icons/darr.png" class="darr" alt="">
+                </a>
+
             </div>
         </header>
         <!-- Header end -->
 
         <!-- About -->
         <section id="about" class="row">
-            <div class="row clients-strip">
+            <div class="row clients-slide">
                 <div class="col-md-2 clients-header">
                     <h4>OUR CLIENTS</h4>
-                    <a href="#" class="extra-color">View all</a>
+                    <a href="#about" class="standard-href">View all >></a>
                 </div>
                 <div class="col-md-10 clients-logos">
                     <img src="img/brands/client6.png" alt="" class="client-brand">
@@ -131,7 +127,7 @@
                             <figcaption>
                                 WEB SECURITY & OPTIMIZATION
                             </figcaption>
-                        </figure>                        
+                        </figure>
                     </div>
                     <div class="col-md-6 service-cell">
                         <figure>
@@ -139,7 +135,7 @@
                             <figcaption>
                                 DIGITAL MARKETING
                             </figcaption>
-                        </figure>                        
+                        </figure>
                     </div>
                     <div class="col-md-6 service-cell">
                         <figure>
@@ -147,26 +143,45 @@
                             <figcaption>
                                 CONVERSION OPTIMIZATION
                             </figcaption>
-                        </figure>                        
+                        </figure>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Services end -->
-        
+
         <!-- Works -->
         <section id="works" class="row">
             <div class="row works-header">
                 <div class="col-xs-12">
-                    
+                    <h2>RECENT WORK</h2>
+                    <div class="rectangle"></div>
+                    <p class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quaerat, ut modi asperiores eveniet explicabo fuga dolores quos, quasi debitis quisquam excepturi.</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6"></div>
-                <div class="col-md-6"></div>
+                <div class="col-md-6 works-left">
+                    <img src="img/bg/works.png" alt="">
+                </div>
+                <div class="col-md-6 works-right">
+                    <div class="works-right-header">
+                        <h3>CustomerDomain.com</h3>
+                        <p class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quis, sapiente ab quo, hic adipisci, alias minima temporibus incidunt facilis officiis.</p>
+                    </div>
+                    <div class="works-right-contact light">
+                            <div>Client</div>: &nbsp;Customer<br />
+                            <div>Location</div>: &nbsp;UK<br />
+                            <div>Services</div>: &nbsp;Search Engine Optimization<br />
+                            <div>Website link</div>: &nbsp;<a href="#works" class="standard-href">www.CustomerDomain.pl</a>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Works end -->
+
+
+        <!-- scripts -->
+
     </div>
 </body>
 
