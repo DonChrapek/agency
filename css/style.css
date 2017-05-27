@@ -11,6 +11,18 @@ body, h1, h2, h3, h4, h5 {
     margin: 0;
 }
 
+button {
+    height: ;
+    padding: 2ch 3ch;
+}
+
+.button-grey {
+    background-color: #474747;
+    color: white;
+    border: 0;
+    margin-top: 5ch;
+}
+
 /* Navbar */
 nav {
     z-index: 1;
@@ -46,6 +58,7 @@ nav ul a:hover {
     background-blend-mode:multiply;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
@@ -54,6 +67,7 @@ nav ul a:hover {
     background-image: url('../img/bg/mask-left.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     padding: 0;
 }
 
@@ -90,8 +104,7 @@ nav ul a:hover {
 /* Header stop */
 
 /* About */
-#clients {
-    position: relative;
+#about {
 }
 
 .clients-strip {
@@ -115,5 +128,27 @@ nav ul a:hover {
 
 .client-brand:hover {
     filter: grayscale(0%);
+}
+
+.about-section {
+    background-image: url('../img/bg/about.jpg');
+    background-position: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 1px solid rgba(46,46,46,0.1);
+    box-shadow: 2px 2px 5px;
+}
+
+.rectangle {
+    width: 7%;
+    height: 5px;
+    border: 1px solid orange;
+    border-radius: 0.5ch;
+    background-color: orange;
+    margin: 30px 0;
+}
+
+.section-text-content {
+    padding: 15vh 10vw 15vh 0;
 }
 /* About end */
