@@ -30,6 +30,40 @@
     .client-brand:nth-child(5), .client-brand:nth-child(6){
         display: none; 
     }
+    /* About end */
+    
+    
+    /* Contact */
+    .contact-container {
+        text-align: center;
+        margin-bottom: 3em;
+    }
+    
+    .contact-container:nth-child(3) {
+        text-align: center;
+    }
+    /* Contact end */
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    /* Header */
+    .header-right, .header-left {
+        width: 50%;
+    }
+    /* Header end */  
+    
+    /* About */
+    .clients-header {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .clients-logos {
+        text-align: center;
+    }
+    .client-brand {
+        width: 12%;
+    }  
     
     .about-section {
         background: #e7eaed;  
@@ -52,6 +86,8 @@
         padding-bottom: 3em;
     }
     /* Services end */
+    
+    /* Works */
     .works-right-header {
         text-align: center;
         padding: 3em 0 0 0;
@@ -60,9 +96,9 @@
         padding-left: 25%;
         padding-bottom: 3em;
     }
-    /* Works */
     .other-works {
         display: block;
+        text-align: center;
     }
     /* Works end */
     
@@ -72,14 +108,4 @@
     }
     /* Blog end */
     
-    /* Contact */
-    .contact-container {
-        text-align: center;
-        margin-bottom: 3em;
-    }
-    
-    .contact-container:nth-child(3) {
-        text-align: center;
-    }
-    /* Contact end */
 }
