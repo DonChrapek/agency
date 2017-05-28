@@ -308,4 +308,38 @@ figure img {
     font-weight: 600;
 }
 
+.blog-button-container a:hover {
+    text-decoration: none;
+    color: orange;
+}
 /* Blog end */
+
+/* Contact footer */
+#contact {
+    background-color: #e7eaed;
+    padding: 10vh 10vw;
+}
+
+.contact-container span, contact-container a {
+    font-size: 0.8em;
+}
+
+.contact-container:nth-child(2) {
+    text-align: center;
+}
+
+.contact-container:nth-child(3) {
+    text-align: right;
+}
+
+.contact-container h3 {
+    font-size: 1.7em;
+    margin-bottom: 12px;
+}
+
+.contact-container h4 {
+    font-size: 1em;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+/* Contact footer end */
