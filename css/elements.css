@@ -18,7 +18,6 @@
 }
 
 button {
-    height: ;
     padding: 2ch 3ch;
 }
 
@@ -26,5 +25,10 @@ button {
     background-color: #474747;
     color: white;
     border: 0;
-    margin-top: 5ch;
+}
+
+.button-black {
+    background-color: #000;
+    color: white;
+    border: 0;
 }
